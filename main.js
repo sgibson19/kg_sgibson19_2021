@@ -13,3 +13,8 @@ const numbersMap = new Map([
     ["8", "Eight"],
     ["9", "Nine"]
 ]);
+
+// Using process.argv to return an array
+const userNumbers = process.argv.slice(2), writtenNumbers = userNumbers.map(number => {
+    
+});
